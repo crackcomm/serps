@@ -12,7 +12,7 @@ It also schedules a [crawl](https://github.com/crackcomm/crawl) of every page in
 $ serps \
       --nsq-addr localhost:4150 \
       --nsqlookup-addr localhost:4161 \
-      --topic google_results \
+      --nsq-topic google_results \
       --rethink-db default \
       --rethink-table serps \
       --rethink-addr localhost:28015 \
